@@ -1,0 +1,979 @@
+﻿Log file open, 07/08/21 18:02:13
+LogInit: LLM is enabled
+LogInit: LLM CsvWriter: off TraceWriter: off
+LogInit: Display: Running engine for game: MazeGameDML
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 14 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.531524
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: ICU TimeZone Detection - Raw Offset: +3:00, Platform Override: ''
+LogPluginManager: Mounting plugin MeshPainting
+LogPluginManager: Mounting plugin XGEController
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin EnvironmentQueryEditor
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CameraShakePreviewer
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin CurveEditorTools
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin GeometryMode
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MaterialAnalyzer
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AutomationUtils
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin ChaosCloth
+LogPluginManager: Mounting plugin ChaosClothEditor
+LogPluginManager: Mounting plugin ChaosEditor
+LogPluginManager: Mounting plugin ChaosSolverPlugin
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin ChaosNiagara
+LogPluginManager: Mounting plugin Niagara
+LogPluginManager: Mounting plugin PlanarCut
+LogPluginManager: Mounting plugin PlatformCrypto
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin SkeletalReduction
+LogPluginManager: Mounting plugin LuminPlatformFeatures
+LogPluginManager: Mounting plugin GeometryCollectionPlugin
+LogPluginManager: Mounting plugin GeometryProcessing
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MLSDK
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin AnimationSharing
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin PlasticSourceControl
+LogPluginManager: Mounting plugin PluginUtils
+LogPluginManager: Mounting plugin PropertyAccessNode
+LogPluginManager: Mounting plugin RiderSourceCodeAccess
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin MotoSynth
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin ActorLayerUtilities
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AssetTags
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin AudioSynesthesia
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin ChunkDownloader
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin GooglePAD
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin PostSplashScreen
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin PropertyAccessEditor
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin MagicLeapLightEstimation
+LogPluginManager: Mounting plugin SoundFields
+LogPluginManager: Mounting plugin MagicLeapPassableWorld
+LogPluginManager: Mounting plugin WebMMoviePlayer
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogPluginManager: Mounting plugin ScreenshotTools
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin TemplateSequence
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WebMMedia
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin VariantManagerContent
+LogPluginManager: Mounting plugin Synthesis
+LogPluginManager: Mounting plugin SignificanceManager
+LogPluginManager: Mounting plugin ContentBrowserAssetDataSource
+LogPluginManager: Mounting plugin ContentBrowserClassDataSource
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin OculusVR
+LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.1.1
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogOnline: OSS: Creating online subsystem instance for: NULL
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+LogInit: Build: ++UE4+Release-4.26-CL-15973114
+LogInit: Engine Version: 4.26.2-15973114+++UE4+Release-4.26
+LogInit: Compatible Engine Version: 4.26.0-14830424+++UE4+Release-4.26
+LogInit: Net CL: 14830424
+LogInit: OS: Windows 10 (Release 1909) (), CPU: Intel(R) Core(TM) i3-9100F CPU @ 3.60GHz, GPU: NVIDIA GeForce GTX 1660
+LogInit: Compiled (64-bit): Apr 12 2021 06:14:10
+LogInit: Compiled with Visual C++: 19.24.28315.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.26
+LogInit: Command Line: 
+LogInit: Base Directory: D:/Epic Games/UE_4.26/Engine/Binaries/Win64/
+LogInit: Allocator: TBB
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 29
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 4
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 40
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 37
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 3
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 4
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 44
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 12
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 3
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-Anim (AF43A65D-7FD3-4947-9873-3E8ED9C1BB05): 15
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 43
+LogDevObjectVersion:   FortniteRelease (E7086368-6B23-4C58-8439-1B7016265E91): 1
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 10
+LogDevObjectVersion:   Dev-Niagara (F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC): 1
+LogDevObjectVersion:   Dev-Destruction (174F1F0B-B4C6-45A5-B13F-2EE8D0FB917D): 10
+LogDevObjectVersion:   Dev-Physics-Ext (35F94A83-E258-406C-A318-09F59610247C): 40
+LogDevObjectVersion:   Dev-PhysicsMaterial-Chaos (B68FC16E-8B1B-42E2-B453-215C058844FE): 1
+LogDevObjectVersion:   Dev-CineCamera (B2E18506-4273-CFC2-A54E-F4BB758BBA07): 1
+LogDevObjectVersion:   Dev-VirtualProduction (64F58936-FD1B-42BA-BA96-7289D5D0FA4E): 1
+LogDevObjectVersion:   Dev-MediaFramework (6F0ED827-A609-4895-9C91-998D90180EA4): 2
+LogInit: Presizing for max 25165824 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [D:/MazeGameRepos/MazeGame/MazeGameDML/Saved/Config/Windows/Engine.ini]
+LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+LogInit: Object subsystem initialized
+LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
+LogConfig: Setting CVar [[r.setres:1280x720]]
+[2021.07.08-15.02.14:258][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2021.07.08-15.02.14:258][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2021.07.08-15.02.14:258][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [D:/MazeGameRepos/MazeGame/MazeGameDML/Saved/Config/Windows/Engine.ini]
+[2021.07.08-15.02.14:258][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2021.07.08-15.02.14:258][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [D:/MazeGameRepos/MazeGame/MazeGameDML/Saved/Config/Windows/Engine.ini]
+[2021.07.08-15.02.14:258][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [D:/MazeGameRepos/MazeGame/MazeGameDML/Saved/Config/Windows/Engine.ini]
+[2021.07.08-15.02.14:258][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2021.07.08-15.02.14:258][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2021.07.08-15.02.14:258][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2021.07.08-15.02.14:258][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2021.07.08-15.02.14:258][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2021.07.08-15.02.14:258][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2021.07.08-15.02.14:258][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2021.07.08-15.02.14:258][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2021.07.08-15.02.14:258][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2021.07.08-15.02.14:258][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2021.07.08-15.02.14:258][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2021.07.08-15.02.14:258][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2021.07.08-15.02.14:258][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2021.07.08-15.02.14:258][  0]LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+[2021.07.08-15.02.14:258][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [D:/MazeGameRepos/MazeGame/MazeGameDML/Saved/Config/Windows/Engine.ini]
+[2021.07.08-15.02.14:258][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2021.07.08-15.02.14:258][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2021.07.08-15.02.14:258][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2021.07.08-15.02.14:258][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2021.07.08-15.02.14:258][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2021.07.08-15.02.14:258][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2021.07.08-15.02.14:258][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:25165824]]
+[2021.07.08-15.02.14:258][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2021.07.08-15.02.14:258][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2021.07.08-15.02.14:258][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2021.07.08-15.02.14:258][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2021.07.08-15.02.14:258][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2021.07.08-15.02.14:258][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2021.07.08-15.02.14:258][  0]LogConfig: Setting CVar [[gc.MultithreadedDestructionEnabled:1]]
+[2021.07.08-15.02.14:258][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [D:/MazeGameRepos/MazeGame/MazeGameDML/Saved/Config/Windows/Engine.ini]
+[2021.07.08-15.02.14:258][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [D:/MazeGameRepos/MazeGame/MazeGameDML/Saved/Config/Windows/Engine.ini]
+[2021.07.08-15.02.14:262][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [D:/MazeGameRepos/MazeGame/MazeGameDML/Saved/Config/Windows/Scalability.ini]
+[2021.07.08-15.02.14:262][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2021.07.08-15.02.14:262][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2021.07.08-15.02.14:262][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [D:/MazeGameRepos/MazeGame/MazeGameDML/Saved/Config/Windows/Scalability.ini]
+[2021.07.08-15.02.14:262][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2021.07.08-15.02.14:262][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [D:/MazeGameRepos/MazeGame/MazeGameDML/Saved/Config/Windows/Scalability.ini]
+[2021.07.08-15.02.14:262][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2021.07.08-15.02.14:262][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2021.07.08-15.02.14:262][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2021.07.08-15.02.14:262][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2021.07.08-15.02.14:262][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2021.07.08-15.02.14:262][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2021.07.08-15.02.14:262][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2021.07.08-15.02.14:262][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2021.07.08-15.02.14:262][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2021.07.08-15.02.14:262][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2021.07.08-15.02.14:262][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2021.07.08-15.02.14:262][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2021.07.08-15.02.14:262][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2021.07.08-15.02.14:262][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2021.07.08-15.02.14:262][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2021.07.08-15.02.14:262][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2021.07.08-15.02.14:262][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2021.07.08-15.02.14:262][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2021.07.08-15.02.14:262][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [D:/MazeGameRepos/MazeGame/MazeGameDML/Saved/Config/Windows/Scalability.ini]
+[2021.07.08-15.02.14:262][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2021.07.08-15.02.14:262][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2021.07.08-15.02.14:262][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2021.07.08-15.02.14:262][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2021.07.08-15.02.14:262][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2021.07.08-15.02.14:262][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2021.07.08-15.02.14:262][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2021.07.08-15.02.14:262][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2021.07.08-15.02.14:262][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2021.07.08-15.02.14:262][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2021.07.08-15.02.14:263][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2021.07.08-15.02.14:263][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2021.07.08-15.02.14:263][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2021.07.08-15.02.14:263][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2021.07.08-15.02.14:263][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2021.07.08-15.02.14:263][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2021.07.08-15.02.14:263][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2021.07.08-15.02.14:263][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2021.07.08-15.02.14:263][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2021.07.08-15.02.14:263][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2021.07.08-15.02.14:263][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2021.07.08-15.02.14:263][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2021.07.08-15.02.14:263][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2021.07.08-15.02.14:263][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2021.07.08-15.02.14:263][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2021.07.08-15.02.14:263][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2021.07.08-15.02.14:263][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2021.07.08-15.02.14:263][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2021.07.08-15.02.14:263][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2021.07.08-15.02.14:263][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2021.07.08-15.02.14:263][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [D:/MazeGameRepos/MazeGame/MazeGameDML/Saved/Config/Windows/Scalability.ini]
+[2021.07.08-15.02.14:263][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2021.07.08-15.02.14:263][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2021.07.08-15.02.14:263][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2021.07.08-15.02.14:263][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2021.07.08-15.02.14:263][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2021.07.08-15.02.14:263][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2021.07.08-15.02.14:263][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2021.07.08-15.02.14:263][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2021.07.08-15.02.14:263][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2021.07.08-15.02.14:263][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [D:/MazeGameRepos/MazeGame/MazeGameDML/Saved/Config/Windows/Scalability.ini]
+[2021.07.08-15.02.14:263][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2021.07.08-15.02.14:263][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2021.07.08-15.02.14:263][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2021.07.08-15.02.14:263][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2021.07.08-15.02.14:263][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2021.07.08-15.02.14:263][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2021.07.08-15.02.14:263][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2021.07.08-15.02.14:263][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2021.07.08-15.02.14:263][  0]LogConfig: Setting CVar [[r.AnisotropicMaterials:1]]
+[2021.07.08-15.02.14:263][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2021.07.08-15.02.14:263][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2021.07.08-15.02.14:263][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2021.07.08-15.02.14:263][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2021.07.08-15.02.14:263][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2021.07.08-15.02.14:263][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2021.07.08-15.02.14:263][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2021.07.08-15.02.14:263][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2021.07.08-15.02.14:263][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountMaxPerSlice:4]]
+[2021.07.08-15.02.14:263][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2021.07.08-15.02.14:263][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2021.07.08-15.02.14:263][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2021.07.08-15.02.14:263][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:128.0]]
+[2021.07.08-15.02.14:263][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2021.07.08-15.02.14:263][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:128.0]]
+[2021.07.08-15.02.14:263][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2021.07.08-15.02.14:263][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2021.07.08-15.02.14:263][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2021.07.08-15.02.14:263][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [D:/MazeGameRepos/MazeGame/MazeGameDML/Saved/Config/Windows/Scalability.ini]
+[2021.07.08-15.02.14:263][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2021.07.08-15.02.14:263][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2021.07.08-15.02.14:263][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [D:/MazeGameRepos/MazeGame/MazeGameDML/Saved/Config/Windows/Scalability.ini]
+[2021.07.08-15.02.14:263][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.IntegrationType:2]]
+[2021.07.08-15.02.14:263][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:4]]
+[2021.07.08-15.02.14:263][  0]LogConfig: Setting CVar [[r.HairStrands.Visibility.MSAA.SamplePerPixel:4]]
+[2021.07.08-15.02.14:263][  0]LogInit: Selected Device Profile: [Windows]
+[2021.07.08-15.02.14:263][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2021.07.08-15.02.14:263][  0]LogHAL: Display: Platform has ~ 8 GB [8521711616 / 8589934592 / 8], which maps to Default [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2021.07.08-15.02.14:263][  0]LogInit: Going up to parent DeviceProfile []
+[2021.07.08-15.02.14:263][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [D:/MazeGameRepos/MazeGame/MazeGameDML/Saved/Config/Windows/Scalability.ini]
+[2021.07.08-15.02.14:263][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2021.07.08-15.02.14:263][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2021.07.08-15.02.14:263][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [D:/MazeGameRepos/MazeGame/MazeGameDML/Saved/Config/Windows/Scalability.ini]
+[2021.07.08-15.02.14:263][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2021.07.08-15.02.14:263][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [D:/MazeGameRepos/MazeGame/MazeGameDML/Saved/Config/Windows/Scalability.ini]
+[2021.07.08-15.02.14:263][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2021.07.08-15.02.14:263][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2021.07.08-15.02.14:264][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2021.07.08-15.02.14:264][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2021.07.08-15.02.14:264][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2021.07.08-15.02.14:264][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2021.07.08-15.02.14:264][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2021.07.08-15.02.14:264][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2021.07.08-15.02.14:264][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2021.07.08-15.02.14:264][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2021.07.08-15.02.14:264][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2021.07.08-15.02.14:264][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2021.07.08-15.02.14:264][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2021.07.08-15.02.14:264][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2021.07.08-15.02.14:264][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2021.07.08-15.02.14:264][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2021.07.08-15.02.14:264][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2021.07.08-15.02.14:264][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2021.07.08-15.02.14:264][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [D:/MazeGameRepos/MazeGame/MazeGameDML/Saved/Config/Windows/Scalability.ini]
+[2021.07.08-15.02.14:264][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2021.07.08-15.02.14:264][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2021.07.08-15.02.14:264][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2021.07.08-15.02.14:264][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2021.07.08-15.02.14:264][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2021.07.08-15.02.14:264][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2021.07.08-15.02.14:264][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2021.07.08-15.02.14:264][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2021.07.08-15.02.14:264][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2021.07.08-15.02.14:264][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2021.07.08-15.02.14:264][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2021.07.08-15.02.14:264][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2021.07.08-15.02.14:264][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2021.07.08-15.02.14:264][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2021.07.08-15.02.14:264][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2021.07.08-15.02.14:264][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2021.07.08-15.02.14:264][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2021.07.08-15.02.14:264][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2021.07.08-15.02.14:264][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2021.07.08-15.02.14:264][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2021.07.08-15.02.14:264][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2021.07.08-15.02.14:264][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2021.07.08-15.02.14:264][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2021.07.08-15.02.14:264][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2021.07.08-15.02.14:264][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2021.07.08-15.02.14:264][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2021.07.08-15.02.14:264][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2021.07.08-15.02.14:264][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2021.07.08-15.02.14:264][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2021.07.08-15.02.14:264][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2021.07.08-15.02.14:264][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [D:/MazeGameRepos/MazeGame/MazeGameDML/Saved/Config/Windows/Scalability.ini]
+[2021.07.08-15.02.14:264][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2021.07.08-15.02.14:264][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2021.07.08-15.02.14:264][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2021.07.08-15.02.14:264][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2021.07.08-15.02.14:264][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2021.07.08-15.02.14:264][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2021.07.08-15.02.14:264][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2021.07.08-15.02.14:264][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2021.07.08-15.02.14:264][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2021.07.08-15.02.14:264][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [D:/MazeGameRepos/MazeGame/MazeGameDML/Saved/Config/Windows/Scalability.ini]
+[2021.07.08-15.02.14:264][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2021.07.08-15.02.14:264][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2021.07.08-15.02.14:264][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2021.07.08-15.02.14:264][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2021.07.08-15.02.14:264][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2021.07.08-15.02.14:264][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2021.07.08-15.02.14:264][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2021.07.08-15.02.14:264][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2021.07.08-15.02.14:264][  0]LogConfig: Setting CVar [[r.AnisotropicMaterials:1]]
+[2021.07.08-15.02.14:264][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2021.07.08-15.02.14:264][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2021.07.08-15.02.14:264][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2021.07.08-15.02.14:264][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2021.07.08-15.02.14:264][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2021.07.08-15.02.14:264][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2021.07.08-15.02.14:264][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2021.07.08-15.02.14:264][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2021.07.08-15.02.14:264][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountMaxPerSlice:4]]
+[2021.07.08-15.02.14:264][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2021.07.08-15.02.14:264][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2021.07.08-15.02.14:264][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2021.07.08-15.02.14:264][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:128.0]]
+[2021.07.08-15.02.14:264][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2021.07.08-15.02.14:264][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:128.0]]
+[2021.07.08-15.02.14:264][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2021.07.08-15.02.14:264][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2021.07.08-15.02.14:264][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2021.07.08-15.02.14:264][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [D:/MazeGameRepos/MazeGame/MazeGameDML/Saved/Config/Windows/Scalability.ini]
+[2021.07.08-15.02.14:264][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2021.07.08-15.02.14:264][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2021.07.08-15.02.14:265][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [D:/MazeGameRepos/MazeGame/MazeGameDML/Saved/Config/Windows/Scalability.ini]
+[2021.07.08-15.02.14:265][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.IntegrationType:2]]
+[2021.07.08-15.02.14:265][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:4]]
+[2021.07.08-15.02.14:265][  0]LogConfig: Setting CVar [[r.HairStrands.Visibility.MSAA.SamplePerPixel:4]]
+[2021.07.08-15.02.14:265][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2021.07.08-15.02.14:265][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2021.07.08-15.02.14:265][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2021.07.08-15.02.14:265][  0]LogConfig: Setting CVar [[fx.SkipVectorVMBackendOptimizations:1]]
+[2021.07.08-15.02.14:265][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [D:/MazeGameRepos/MazeGame/MazeGameDML/Saved/Config/Windows/Engine.ini]
+[2021.07.08-15.02.14:265][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [D:/MazeGameRepos/MazeGame/MazeGameDML/Saved/Config/Windows/Editor.ini]
+[2021.07.08-15.02.14:265][  0]LogInit: Computer: DESKTOP-DVN7L58
+[2021.07.08-15.02.14:265][  0]LogInit: User: Tyler
+[2021.07.08-15.02.14:265][  0]LogInit: CPU Page size=4096, Cores=4
+[2021.07.08-15.02.14:265][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2021.07.08-15.02.14:265][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2021.07.08-15.02.14:265][  0]LogMemory: Platform Memory Stats for Windows
+[2021.07.08-15.02.14:265][  0]LogMemory: Process Physical Memory: 134.03 MB used, 134.03 MB peak
+[2021.07.08-15.02.14:265][  0]LogMemory: Process Virtual Memory: 117.48 MB used, 117.48 MB peak
+[2021.07.08-15.02.14:265][  0]LogMemory: Physical Memory: 3800.40 MB used,  4326.54 MB free, 8126.94 MB total
+[2021.07.08-15.02.14:265][  0]LogMemory: Virtual Memory: 134209864.00 MB used,  7863.36 MB free, 134217728.00 MB total
+[2021.07.08-15.02.14:269][  0]LogWindows: WindowsPlatformFeatures enabled
+[2021.07.08-15.02.14:333][  0]LogInit: Physics initialised using underlying interface: PhysX
+[2021.07.08-15.02.14:334][  0]LogInit: Using OS detected language (en-US).
+[2021.07.08-15.02.14:334][  0]LogInit: Using OS detected locale (en-US).
+[2021.07.08-15.02.14:335][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2021.07.08-15.02.14:504][  0]LogInit: Setting process to per monitor DPI aware
+[2021.07.08-15.02.14:513][  0]LogWindowsTextInputMethodSystem: Display: IME system deactivated.
+[2021.07.08-15.02.14:569][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2021.07.08-15.02.14:569][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2021.07.08-15.02.14:693][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2021.07.08-15.02.14:693][  0]LogD3D11RHI: D3D11 min allowed feature level: 11_0
+[2021.07.08-15.02.14:693][  0]LogD3D11RHI: D3D11 max allowed feature level: 11_0
+[2021.07.08-15.02.14:693][  0]LogD3D11RHI: D3D11 adapters:
+[2021.07.08-15.02.14:762][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1660' (Feature Level 11_0)
+[2021.07.08-15.02.14:762][  0]LogD3D11RHI:       5991/0/4063 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2021.07.08-15.02.14:765][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2021.07.08-15.02.14:765][  0]LogD3D11RHI:       0/0/4063 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2021.07.08-15.02.14:765][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2021.07.08-15.02.14:768][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2021.07.08-15.02.14:768][  0]LogD3D11RHI:     GPU DeviceId: 0x2184 (for the marketing name, search the web for "GPU Device Id")
+[2021.07.08-15.02.14:768][  0]LogWindows: EnumDisplayDevices:
+[2021.07.08-15.02.14:769][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1660' (P:1 D:1)
+[2021.07.08-15.02.14:769][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1660' (P:0 D:0)
+[2021.07.08-15.02.14:769][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1660' (P:0 D:0)
+[2021.07.08-15.02.14:769][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1660' (P:0 D:0)
+[2021.07.08-15.02.14:769][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2021.07.08-15.02.14:769][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1660
+[2021.07.08-15.02.14:769][  0]LogD3D11RHI:   Driver Version: 466.63 (internal:27.21.14.6663, unified:466.63)
+[2021.07.08-15.02.14:769][  0]LogD3D11RHI:      Driver Date: 5-27-2021
+[2021.07.08-15.02.14:769][  0]LogRHI: Texture pool is 4193 MB (70% of 5991 MB)
+[2021.07.08-15.02.14:815][  0]LogD3D11RHI: RHI has support for 64 bit atomics
+[2021.07.08-15.02.14:815][  0]LogD3D11RHI: Async texture creation enabled
+[2021.07.08-15.02.14:815][  0]LogD3D11RHI: Array index from any shader is supported
+[2021.07.08-15.02.14:830][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2021.07.08-15.02.14:831][  0]LogRHI: GeForceNow SDK initialized: 1
+[2021.07.08-15.02.15:143][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AllDesktop'
+[2021.07.08-15.02.15:160][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android'
+[2021.07.08-15.02.15:160][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTC'
+[2021.07.08-15.02.15:160][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXT'
+[2021.07.08-15.02.15:160][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2'
+[2021.07.08-15.02.15:160][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AndroidClient'
+[2021.07.08-15.02.15:160][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTCClient'
+[2021.07.08-15.02.15:160][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXTClient'
+[2021.07.08-15.02.15:161][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2Client'
+[2021.07.08-15.02.15:161][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_Multi'
+[2021.07.08-15.02.15:161][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_MultiClient'
+[2021.07.08-15.02.15:177][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOSClient'
+[2021.07.08-15.02.15:177][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOS'
+[2021.07.08-15.02.15:184][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Linux'
+[2021.07.08-15.02.15:190][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxNoEditor'
+[2021.07.08-15.02.15:196][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxClient'
+[2021.07.08-15.02.15:203][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxServer'
+[2021.07.08-15.02.15:209][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64NoEditor'
+[2021.07.08-15.02.15:215][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Client'
+[2021.07.08-15.02.15:222][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Server'
+[2021.07.08-15.02.15:239][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Lumin'
+[2021.07.08-15.02.15:239][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LuminClient'
+[2021.07.08-15.02.15:245][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'MacNoEditor'
+[2021.07.08-15.02.15:252][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Mac'
+[2021.07.08-15.02.15:258][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'MacClient'
+[2021.07.08-15.02.15:264][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'MacServer'
+[2021.07.08-15.02.15:275][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOSClient'
+[2021.07.08-15.02.15:275][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOS'
+[2021.07.08-15.02.15:281][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsNoEditor'
+[2021.07.08-15.02.15:288][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
+[2021.07.08-15.02.15:294][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
+[2021.07.08-15.02.15:301][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
+[2021.07.08-15.02.15:301][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2021.07.08-15.02.15:306][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2021.07.08-15.02.15:346][  0]LogRendererCore: Ray tracing is disabled. Reason: r.RayTracing=0.
+[2021.07.08-15.02.15:346][  0]LogShaderCompilers: Guid format shader working directory is -3 characters bigger than the processId version (../../../../../MazeGameRepos/MazeGame/MazeGameDML/Intermediate/Shaders/WorkingDirectory/4424/).
+[2021.07.08-15.02.15:346][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Tyler/AppData/Local/Temp/UnrealShaderWorkingDir/859DEDA345D2311D473552AF20EBAD6E/'.
+[2021.07.08-15.02.15:346][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2021.07.08-15.02.15:346][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2021.07.08-15.02.16:004][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2021.07.08-15.02.16:069][  0]LogDerivedDataCache: Loaded boot cache 0.06s 77MB C:/Users/Tyler/AppData/Local/UnrealEngine/4.26/DerivedDataCache/Boot.ddc.
+[2021.07.08-15.02.16:069][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Tyler/AppData/Local/UnrealEngine/4.26/DerivedDataCache/Boot.ddc
+[2021.07.08-15.02.16:203][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../MazeGameRepos/MazeGame/MazeGameDML/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2021.07.08-15.02.16:203][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2021.07.08-15.02.16:203][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../MazeGameRepos/MazeGame/MazeGameDML/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2021.07.08-15.02.16:203][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2021.07.08-15.02.16:214][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2021.07.08-15.02.16:214][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2021.07.08-15.02.16:214][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2021.07.08-15.02.16:260][  0]LogDerivedDataCache: Speed tests for C:/Users/Tyler/AppData/Local/UnrealEngine/Common/DerivedDataCache took 0.05 seconds
+[2021.07.08-15.02.16:260][  0]LogDerivedDataCache: Display: Performance to C:/Users/Tyler/AppData/Local/UnrealEngine/Common/DerivedDataCache: Latency=0.02ms. RandomReadSpeed=1602.91MBs, RandomWriteSpeed=20.48MBs. Assigned SpeedClass 'Local'
+[2021.07.08-15.02.16:260][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Tyler/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2021.07.08-15.02.16:260][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2021.07.08-15.02.16:260][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2021.07.08-15.02.16:303][  0]LogSlate: Using FreeType 2.10.0
+[2021.07.08-15.02.16:304][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2021.07.08-15.02.16:328][  0]LogAssetRegistry: FAssetRegistry took 0.0024 seconds to start up
+[2021.07.08-15.02.16:517][  0]LogInit: Selected Device Profile: [Windows]
+[2021.07.08-15.02.16:517][  0]LogInit: Active device profile: [00000245751FE200][000002456B0C0140 49] Windows
+[2021.07.08-15.02.16:517][  0]LogInit: Profiles: [00000245751FE200][000002456B0C0140 49] Windows, [00000245751B2400][000002456B0C82C0 49] WindowsNoEditor, [00000245751FD500][000002456B0CC440 49] WindowsServer, [00000245751B3000][000002456B0D05C0 49] WindowsClient, [00000245751FE100][000002456B0D4740 49] IOS, [00000245751B2000][000002456B0D88C0 49] iPadAir, [00000245751FD100][000002456B0DCA40 49] iPadAir2, [000002457514E100][000002456B0E4D00 49] IPadPro, [000002457514E200][000002456B0E0D40 49] iPadAir3, [00000245751B1600][000002456B0E8EC0 49] iPadAir4, [000002457514FA00][000002456B0ED040 49] iPadMini2, [00000245751B2500][000002456B0F11C0 49] iPadMini3, [000002457514D400][000002456B0F5340 49] iPadMini4, [00000245751B3B00][000002456B0F94C0 49] iPadMini5, [000002457515DA00][000002456B0C5740 49] iPhone6, [000002457515DB00][000002456B0FD780 49] iPodTouch6, [000002457514FF00][000002456A6699C0 49] iPhone7, [000002457514DF00][000002456A665A00 49] iPodTouch7, [000002457515F200][000002456A66DB40 49] iPhone5S, [000002457514F200][000002456A675CC0 49] iPhone6Plus, [000002457515D600][000002456A678180 49] iPhone6S, [000002457514CE00][000002456A67C300 49] iPhone6SPlus, [000002457515C700][000002456A680480 49] iPhone7Plus, [000002457514CA00][000002456A684600 49] iPhoneSE, [000002457515EA00][000002456A688780 49] iPhone8, [000002457514E900][000002456A68C900 49] iPhone8Plus, [000002457515C500][000002456A690A80 49] iPhoneX, [000002457514F000][000002456A694C00 49] iPhoneXS, [000002457515E700][000002456A698D80 49] iPhoneXSMax, [000002457514FC00][000002456A69CF00 49] iPhoneXR, [000002457515CD00][000002456A6A1080 49] iPhone11, [000002457514E800][000002456A6A5200 49] iPhone11Pro, [000002457515E800][000002456A6A9380 49] iPhone11ProMax, [000002457514F700][000002456A6AD500 49] iPhoneSE2, [000002457515E900][000002456A6B1680 49] iPhone12Mini, [000002457514E500][000002456A6717C0 49] iPhone12, [000002457515E200][000002456A6B5900 49] iPhone12Pro, [000002457514DE00][000002456A6B9A40 49] iPhone12ProMax, [00000245751FE700][000002456A6BDB80 49] iPadPro105, [000002457514C700][000002456A6C5D00 49] iPadPro129, [00000245751FEE00][000002456A6C81C0 49] iPadPro97, [000002457514F400][000002456A6CC340 49] iPadPro2_129, [00000245751FF700][000002456A6D04C0 49] iPad5, [000002457514D900][000002456A6D4640 49] iPad6, [00000245751FEB00][000002456A6D87C0 49] iPad7, [000002457514F900][000002456A6DC940 49] iPad8, [00000245751FDE00][000002456A6E0AC0 49] iPadPro11, [000002457514D600][000002456A6E4C40 49] iPadPro2_11, [00000245751FC400][000002456A6E8DC0 49] iPadPro3_129, [000002457514ED00][000002456A6ECF40 49] iPadPro4_129, [00000245751FE900][000002456A6F10C0 49] AppleTV, [000002457514D000][000002456A6F5240 49] AppleTV4K, [00000245751FD200][000002456A6F93C0 49] TVOS, [000002457514CB00][000002456A6FD540 49] Mac, [00000245751FDA00][000002456A70D6C0 49] MacClient, [000002457514CC00][000002456A711840 49] MacNoEditor, [00000245751FEA00][000002456A6C1980 49] MacServer, [000002457514E400][000002456A715AC0 49] Linux, [00000245751FC700][000002456A719C00 49] LinuxAArch64, [000002457514F600][000002456A7200C0 49] LinuxNoEditor, [00000245751FC800][000002456A724240 49] LinuxAArch64NoEditor, [000002457514C900][000002456A7283C0 49] LinuxClient, [00000245751FE800][000002456A72C540 49] LinuxAArch64Client, [000002457514EB00][000002456A7306C0 49] LinuxServer, [00000245751FC200][000002456405A840 49] LinuxAArch64Server, [000002457514C200][000002456405E9C0 49] Android, [00000245751FD000][0000024564062B40 49] Android_Low, [000002457514C400][0000024564066CC0 49] Android_Mid, [00000245751FC300][000002456406AE40 49] Android_High, [000002457514D800][000002456406EFC0 49] Android_Default, [00000245751FCE00][0000024564073140 49] Android_Adreno4xx, [000002457514E700][00000245640772C0 49] Android_Adreno5xx_Low, [00000245751FCC00][000002456407B440 49] Android_Adreno5xx, [000002457514E300][000002456407F5C0 49] Android_Adreno6xx, [00000245751FC100][0000024564083740 49] Android_Adreno6xx_Vulkan, [000002457514D300][00000245640878C0 49] Android_Mali_T6xx, [00000245751FD400][000002456A71DA00 49] Android_Mali_T7xx, [000002457514C500][000002456408BB40 49] Android_Mali_T8xx, [00000245751FD800][000002456408FC80 49] Android_Mali_G71, [000002457514DA00][0000024564092100 49] Android_Mali_G72, [00000245751B2900][000002456409A280 49] Android_Mali_G72_Vulkan, [000002457515FC00][000002456409E400 49] Android_Mali_G76, [00000245751B0700][00000245640A2580 49] Android_Mali_G76_Vulkan, [000002457515FE00][00000245640A6700 49] Android_Mali_G77, [00000245751B1000][0000024565A9C880 49] Android_Mali_G77_Vulkan, [000002457515DF00][0000024565AA0A00 49] Android_Vulkan_SM5, [00000245751B3400][0000024565AA4B80 49] Android_PowerVR_G6xxx, [000002457515C300][0000024565AA8D00 49] Android_PowerVR_GT7xxx, [00000245751B0E00][0000024565AACE80 49] Android_PowerVR_GE8xxx, [000002457515F000][0000024565AB1000 49] Android_PowerVR_GM9xxx, [00000245751B3300][0000024565AB5180 49] Android_PowerVR_GM9xxx_Vulkan, [000002457515FF00][0000024565AB9300 49] Android_TegraK1, [00000245751B3D00][0000024565ABD480 49] Android_Unknown_Vulkan, [000002457515C600][0000024565AC1600 49] Lumin, [00000245751B0C00][0000024565AC5780 49] Lumin_Desktop, [000002457515F100][0000024575331900 49] HoloLens, 
+[2021.07.08-15.02.16:606][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2021.07.08-15.02.16:606][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2021.07.08-15.02.16:606][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2021.07.08-15.02.16:606][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2021.07.08-15.02.16:606][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2021.07.08-15.02.16:619][  0]LogNetVersion: MazeGameDML 1.0.0, NetCL: 14830424, EngineNetVer: 16, GameNetVer: 0 (Checksum: 1008336938)
+[2021.07.08-15.02.17:001][  0]LogHMD: PokeAHoleMaterial loaded successfully
+[2021.07.08-15.02.18:053][  0]LogPackageLocalizationCache: Processed 22 localized package path(s) for 1 prioritized culture(s) in 1.052199 seconds
+[2021.07.08-15.02.18:058][  0]LogUObjectArray: 16831 objects as part of root set at end of initial load.
+[2021.07.08-15.02.18:059][  0]LogUObjectAllocator: 4209728 out of 0 bytes used by permanent object pool.
+[2021.07.08-15.02.18:059][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2021.07.08-15.02.18:463][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2021.07.08-15.02.18:467][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2021.07.08-15.02.18:653][  0]LogLinker: Warning: Failed to load '/Game/ThirdPersonBP/ThirdPersonOverview': Can't find file.
+[2021.07.08-15.02.18:653][  0]LogLinker: Warning: Failed to load '/Game/ThirdPersonBP/ThirdPersonOverview': Can't find file.
+[2021.07.08-15.02.18:653][  0]LogUObjectGlobals: Warning: Failed to find object 'Class /Game/ThirdPersonBP/ThirdPersonOverview.ThirdPersonOverview_C'
+[2021.07.08-15.02.18:829][  0]SourceControl: Source control is disabled
+[2021.07.08-15.02.18:829][  0]SourceControl: Source control is disabled
+[2021.07.08-15.02.18:832][  0]SourceControl: Source control is disabled
+[2021.07.08-15.02.18:834][  0]SourceControl: Source control is disabled
+[2021.07.08-15.02.18:839][  0]SourceControl: Source control is disabled
+[2021.07.08-15.02.18:844][  0]LogUProjectInfo: Found projects:
+[2021.07.08-15.02.18:847][  0]LogVSAccessor: Display: Unable to create Visual Studio setup instance: 80040154
+[2021.07.08-15.02.18:847][  0]LogVSAccessor: Display: Unable to create Visual Studio setup instance: 80040154
+[2021.07.08-15.02.18:863][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2021.07.08-15.02.18:880][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2021.07.08-15.02.18:880][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2021.07.08-15.02.18:954][  0]LogCollectionManager: Loaded 0 collections in 0.000592 seconds
+[2021.07.08-15.02.18:972][  0]LogFileCache: Scanning file cache for directory 'D:/MazeGameRepos/MazeGame/MazeGameDML/Saved/Collections/' took 0.00s
+[2021.07.08-15.02.18:972][  0]LogFileCache: Scanning file cache for directory 'D:/MazeGameRepos/MazeGame/MazeGameDML/Content/Developers/Tyler/Collections/' took 0.00s
+[2021.07.08-15.02.18:972][  0]LogFileCache: Scanning file cache for directory 'D:/MazeGameRepos/MazeGame/MazeGameDML/Content/Collections/' took 0.00s
+[2021.07.08-15.02.18:972][  0]LogOcInput: OculusInput pre-init called
+[2021.07.08-15.02.18:982][  0]LogWindows: Failed to load 'OVRPlugin.dll' (GetLastError=126)
+[2021.07.08-15.02.18:982][  0]LogWindows: File 'OVRPlugin.dll' does not exist
+[2021.07.08-15.02.19:023][  0]LogEngine: Initializing Engine...
+[2021.07.08-15.02.19:265][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2021.07.08-15.02.19:410][  0]LogMagicLeap: Warning: VR disabled because ZI is not enabled.  To enable, in the editor, Edit -> Project Settings -> Plugins -> Magic Leap Plugin -> Enable Zero Iteration
+[2021.07.08-15.02.19:463][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
+[2021.07.08-15.02.19:581][  0]LogInit: Initializing FReadOnlyCVARCache
+[2021.07.08-15.02.19:588][  0]LogAIModule: Creating AISystem for world Untitled
+[2021.07.08-15.02.19:605][  0]LogAudio: Display: Initializing Audio Device Manager...
+[2021.07.08-15.02.19:608][  0]LogAudio: Display: Audio Device Manager Initialized
+[2021.07.08-15.02.19:608][  0]LogAudio: Display: Creating Audio Device:                 Id: 1, Scope: Shared, Realtime: True
+[2021.07.08-15.02.19:608][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.07.08-15.02.19:608][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.07.08-15.02.19:608][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.07.08-15.02.19:608][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.07.08-15.02.19:608][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.07.08-15.02.19:608][  0]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.07.08-15.02.19:608][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.07.08-15.02.19:608][  0]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.07.08-15.02.19:608][  0]LogAudio: Display: Using built-in audio occlusion.
+[2021.07.08-15.02.19:608][  0]LogAudioMixer: Display: Initializing audio mixer.
+[2021.07.08-15.02.19:616][  0]LogAudioMixer: Display: 0: FrontLeft
+[2021.07.08-15.02.19:616][  0]LogAudioMixer: Display: 1: FrontRight
+[2021.07.08-15.02.19:647][  0]LogAudioMixer: Display: Using Audio Device Динамики (Realtek(R) Audio)
+[2021.07.08-15.02.19:653][  0]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.07.08-15.02.19:654][  0]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.07.08-15.02.19:654][  0]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.07.08-15.02.19:655][  0]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.07.08-15.02.19:655][  0]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.07.08-15.02.19:655][  0]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.07.08-15.02.19:656][  0]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.07.08-15.02.19:656][  0]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.07.08-15.02.19:656][  0]LogInit: FAudioDevice initialized.
+[2021.07.08-15.02.19:656][  0]LogAudio: Display: Audio Device (ID: 1) registered with world 'Untitled'.
+[2021.07.08-15.02.19:656][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2021.07.08-15.02.21:216][  0]LogDerivedDataCache: Saved boot cache 1.56s 77MB C:/Users/Tyler/AppData/Local/UnrealEngine/4.26/DerivedDataCache/Boot.ddc.
+[2021.07.08-15.02.21:216][  0]LogInit: Texture streaming: Enabled
+[2021.07.08-15.02.21:225][  0]LogAnalytics: Display: [UEEditor.Rocket.Release] APIServer = https://datarouter.ol.epicgames.com/. AppVersion = 4.26.2-15973114+++UE4+Release-4.26
+[2021.07.08-15.02.21:227][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2021.07.08-15.02.21:228][  0]LogEditorSessionSummary: Verbose: Initializing EditorSessionSummaryWriter for editor session tracking
+[2021.07.08-15.02.21:229][  0]LogEditorSessionSummary: EditorSessionSummaryWriter initialized
+[2021.07.08-15.02.21:707][  0]LogInit: Transaction tracking system initialized
+[2021.07.08-15.02.21:722][  0]BlueprintLog: New page: Editor Load
+[2021.07.08-15.02.21:852][  0]LocalizationService: Localization service is disabled
+[2021.07.08-15.02.22:000][  0]TimingProfiler: Initialize
+[2021.07.08-15.02.22:000][  0]TimingProfiler: OnSessionChanged
+[2021.07.08-15.02.22:000][  0]LoadingProfiler: Initialize
+[2021.07.08-15.02.22:000][  0]LoadingProfiler: OnSessionChanged
+[2021.07.08-15.02.22:000][  0]NetworkingProfiler: Initialize
+[2021.07.08-15.02.22:000][  0]NetworkingProfiler: OnSessionChanged
+[2021.07.08-15.02.22:000][  0]MemoryProfiler: Initialize
+[2021.07.08-15.02.22:000][  0]MemoryProfiler: OnSessionChanged
+[2021.07.08-15.02.22:038][  0]LogVSAccessor: Display: Unable to create Visual Studio setup instance: 80040154
+[2021.07.08-15.02.22:038][  0]LogVSAccessor: Display: Unable to create Visual Studio setup instance: 80040154
+[2021.07.08-15.02.23:195][  0]LogFileCache: Scanning file cache for directory 'D:/MazeGameRepos/MazeGame/MazeGameDML/Content/' took 0.04s
+[2021.07.08-15.02.23:195][  0]LogCook: Display: CookSettings for Memory: MemoryMaxUsedVirtual 0MiB, MemoryMaxUsedPhysical 16384MiB, MemoryMinFreeVirtual 0MiB, MemoryMinFreePhysical 1024MiB
+[2021.07.08-15.02.23:195][  0]LogCook: Display: Mobile HDR setting 1
+[2021.07.08-15.02.23:473][  0]LogInit: Display: Engine is initialized. Leaving FEngineLoop::Init()
+[2021.07.08-15.02.23:475][  0]SourceControl: Source control is disabled
+[2021.07.08-15.02.23:475][  0]LogUnrealEdMisc: Loading editor; pre map load, took 11.492
+[2021.07.08-15.02.23:476][  0]Cmd: MAP LOAD FILE="../../../../../MazeGameRepos/MazeGame/MazeGameDML/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2021.07.08-15.02.23:476][  0]LightingResults: New page: Lighting Build
+[2021.07.08-15.02.23:476][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2021.07.08-15.02.23:476][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.07.08-15.02.23:476][  0]MapCheck: New page: Map Check
+[2021.07.08-15.02.23:476][  0]LightingResults: New page: Lighting Build
+[2021.07.08-15.02.23:483][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.64ms
+[2021.07.08-15.02.30:949][  0]LogAudio: Display: Audio Device (ID: 1) registered with world 'ThirdPersonExampleMap'.
+[2021.07.08-15.02.30:950][  0]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2021.07.08-15.02.31:698][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2021.07.08-15.02.31:881][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.71ms
+[2021.07.08-15.02.31:911][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2021.07.08-15.02.31:911][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.108ms to complete.
+[2021.07.08-15.02.31:911][  0]LogFileHelpers: Loading map 'ThirdPersonExampleMap' took 8.436
+[2021.07.08-15.02.31:933][  0]LogUnrealEdMisc: Total Editor Startup Time, took 19.950
+[2021.07.08-15.02.36:943][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.07.08-15.02.37:045][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.07.08-15.02.37:051][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.07.08-15.02.37:056][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.07.08-15.02.38:576][  0]LogNativeClassHierarchy: Verbose: Native class hierarchy populated in 0.0095 seconds. Added 3601 classes and 859 folders.
+[2021.07.08-15.02.38:843][  0]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2021.07.08-15.02.39:037][  0]LogPakFile: PakFile PrimaryIndexSize=187
+[2021.07.08-15.02.39:037][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.07.08-15.02.39:037][  0]LogPakFile: PakFile FullDirectoryIndexSize=148
+[2021.07.08-15.02.39:037][  0]LogPakFile: OnPakFileMounted2Time == 0.000008
+[2021.07.08-15.02.39:047][  0]LogPakFile: PakFile PrimaryIndexSize=189
+[2021.07.08-15.02.39:047][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.07.08-15.02.39:047][  0]LogPakFile: PakFile FullDirectoryIndexSize=152
+[2021.07.08-15.02.39:047][  0]LogPakFile: OnPakFileMounted2Time == 0.000015
+[2021.07.08-15.02.39:058][  0]LogPakFile: PakFile PrimaryIndexSize=191
+[2021.07.08-15.02.39:058][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.07.08-15.02.39:058][  0]LogPakFile: PakFile FullDirectoryIndexSize=160
+[2021.07.08-15.02.39:058][  0]LogPakFile: OnPakFileMounted2Time == 0.000021
+[2021.07.08-15.02.39:142][  0]LogPakFile: PakFile PrimaryIndexSize=185
+[2021.07.08-15.02.39:142][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.07.08-15.02.39:142][  0]LogPakFile: PakFile FullDirectoryIndexSize=148
+[2021.07.08-15.02.39:142][  0]LogPakFile: OnPakFileMounted2Time == 0.000025
+[2021.07.08-15.02.39:153][  0]LogPakFile: PakFile PrimaryIndexSize=190
+[2021.07.08-15.02.39:153][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.07.08-15.02.39:153][  0]LogPakFile: PakFile FullDirectoryIndexSize=154
+[2021.07.08-15.02.39:153][  0]LogPakFile: OnPakFileMounted2Time == 0.000029
+[2021.07.08-15.02.39:158][  0]LogPakFile: PakFile PrimaryIndexSize=192
+[2021.07.08-15.02.39:158][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.07.08-15.02.39:158][  0]LogPakFile: PakFile FullDirectoryIndexSize=158
+[2021.07.08-15.02.39:158][  0]LogPakFile: OnPakFileMounted2Time == 0.000047
+[2021.07.08-15.02.39:183][  0]LogPakFile: PakFile PrimaryIndexSize=182
+[2021.07.08-15.02.39:183][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.07.08-15.02.39:183][  0]LogPakFile: PakFile FullDirectoryIndexSize=138
+[2021.07.08-15.02.39:183][  0]LogPakFile: OnPakFileMounted2Time == 0.000051
+[2021.07.08-15.02.39:241][  0]LogPakFile: PakFile PrimaryIndexSize=184
+[2021.07.08-15.02.39:242][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.07.08-15.02.39:242][  0]LogPakFile: PakFile FullDirectoryIndexSize=142
+[2021.07.08-15.02.39:242][  0]LogPakFile: OnPakFileMounted2Time == 0.000059
+[2021.07.08-15.02.39:325][  0]LogPakFile: PakFile PrimaryIndexSize=188
+[2021.07.08-15.02.39:325][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.07.08-15.02.39:325][  0]LogPakFile: PakFile FullDirectoryIndexSize=150
+[2021.07.08-15.02.39:325][  0]LogPakFile: OnPakFileMounted2Time == 0.000064
+[2021.07.08-15.02.39:326][  0]LogPakFile: PakFile PrimaryIndexSize=182
+[2021.07.08-15.02.39:326][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.07.08-15.02.39:326][  0]LogPakFile: PakFile FullDirectoryIndexSize=138
+[2021.07.08-15.02.39:326][  0]LogPakFile: OnPakFileMounted2Time == 0.000066
+[2021.07.08-15.02.39:328][  0]LogPakFile: PakFile PrimaryIndexSize=184
+[2021.07.08-15.02.39:328][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.07.08-15.02.39:328][  0]LogPakFile: PakFile FullDirectoryIndexSize=142
+[2021.07.08-15.02.39:328][  0]LogPakFile: OnPakFileMounted2Time == 0.000070
+[2021.07.08-15.02.39:329][  0]LogPakFile: PakFile PrimaryIndexSize=183
+[2021.07.08-15.02.39:329][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.07.08-15.02.39:329][  0]LogPakFile: PakFile FullDirectoryIndexSize=140
+[2021.07.08-15.02.39:329][  0]LogPakFile: OnPakFileMounted2Time == 0.000090
+[2021.07.08-15.02.39:346][  0]LogPakFile: PakFile PrimaryIndexSize=185
+[2021.07.08-15.02.39:346][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.07.08-15.02.39:346][  0]LogPakFile: PakFile FullDirectoryIndexSize=144
+[2021.07.08-15.02.39:346][  0]LogPakFile: OnPakFileMounted2Time == 0.000097
+[2021.07.08-15.02.39:413][  0]LogPakFile: PakFile PrimaryIndexSize=188
+[2021.07.08-15.02.39:413][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.07.08-15.02.39:413][  0]LogPakFile: PakFile FullDirectoryIndexSize=150
+[2021.07.08-15.02.39:413][  0]LogPakFile: OnPakFileMounted2Time == 0.000107
+[2021.07.08-15.02.39:414][  0]LogPakFile: PakFile PrimaryIndexSize=190
+[2021.07.08-15.02.39:414][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.07.08-15.02.39:414][  0]LogPakFile: PakFile FullDirectoryIndexSize=154
+[2021.07.08-15.02.39:414][  0]LogPakFile: OnPakFileMounted2Time == 0.000113
+[2021.07.08-15.02.39:415][  0]LogPakFile: PakFile PrimaryIndexSize=187
+[2021.07.08-15.02.39:415][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.07.08-15.02.39:415][  0]LogPakFile: PakFile FullDirectoryIndexSize=148
+[2021.07.08-15.02.39:415][  0]LogPakFile: OnPakFileMounted2Time == 0.000115
+[2021.07.08-15.02.39:416][  0]LogPakFile: PakFile PrimaryIndexSize=189
+[2021.07.08-15.02.39:416][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.07.08-15.02.39:416][  0]LogPakFile: PakFile FullDirectoryIndexSize=152
+[2021.07.08-15.02.39:416][  0]LogPakFile: OnPakFileMounted2Time == 0.000117
+[2021.07.08-15.02.39:417][  0]LogPakFile: PakFile PrimaryIndexSize=183
+[2021.07.08-15.02.39:417][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.07.08-15.02.39:417][  0]LogPakFile: PakFile FullDirectoryIndexSize=140
+[2021.07.08-15.02.39:417][  0]LogPakFile: OnPakFileMounted2Time == 0.000118
+[2021.07.08-15.02.39:418][  0]LogPakFile: PakFile PrimaryIndexSize=185
+[2021.07.08-15.02.39:418][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.07.08-15.02.39:418][  0]LogPakFile: PakFile FullDirectoryIndexSize=144
+[2021.07.08-15.02.39:418][  0]LogPakFile: OnPakFileMounted2Time == 0.000120
+[2021.07.08-15.02.39:419][  0]LogPakFile: PakFile PrimaryIndexSize=185
+[2021.07.08-15.02.39:419][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.07.08-15.02.39:419][  0]LogPakFile: PakFile FullDirectoryIndexSize=144
+[2021.07.08-15.02.39:419][  0]LogPakFile: OnPakFileMounted2Time == 0.000122
+[2021.07.08-15.02.39:420][  0]LogPakFile: PakFile PrimaryIndexSize=187
+[2021.07.08-15.02.39:420][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.07.08-15.02.39:420][  0]LogPakFile: PakFile FullDirectoryIndexSize=148
+[2021.07.08-15.02.39:420][  0]LogPakFile: OnPakFileMounted2Time == 0.000124
+[2021.07.08-15.02.39:421][  0]LogPakFile: PakFile PrimaryIndexSize=183
+[2021.07.08-15.02.39:421][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.07.08-15.02.39:421][  0]LogPakFile: PakFile FullDirectoryIndexSize=140
+[2021.07.08-15.02.39:421][  0]LogPakFile: OnPakFileMounted2Time == 0.000125
+[2021.07.08-15.02.39:422][  0]LogPakFile: PakFile PrimaryIndexSize=186
+[2021.07.08-15.02.39:422][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.07.08-15.02.39:422][  0]LogPakFile: PakFile FullDirectoryIndexSize=146
+[2021.07.08-15.02.39:422][  0]LogPakFile: OnPakFileMounted2Time == 0.000127
+[2021.07.08-15.02.39:436][  0]LogPakFile: PakFile PrimaryIndexSize=188
+[2021.07.08-15.02.39:436][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.07.08-15.02.39:436][  0]LogPakFile: PakFile FullDirectoryIndexSize=150
+[2021.07.08-15.02.39:436][  0]LogPakFile: OnPakFileMounted2Time == 0.000131
+[2021.07.08-15.02.39:437][  0]LogPakFile: PakFile PrimaryIndexSize=185
+[2021.07.08-15.02.39:437][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.07.08-15.02.39:437][  0]LogPakFile: PakFile FullDirectoryIndexSize=144
+[2021.07.08-15.02.39:437][  0]LogPakFile: OnPakFileMounted2Time == 0.000133
+[2021.07.08-15.02.39:449][  0]LogPakFile: PakFile PrimaryIndexSize=192
+[2021.07.08-15.02.39:449][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.07.08-15.02.39:449][  0]LogPakFile: PakFile FullDirectoryIndexSize=158
+[2021.07.08-15.02.39:449][  0]LogPakFile: OnPakFileMounted2Time == 0.000137
+[2021.07.08-15.02.40:441][  0]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'AddContentDialog' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2021.07.08-15.02.40:550][  0]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'SceneOutliner' in 0.0004 seconds. Added 2 classes and 0 folders.
+[2021.07.08-15.02.41:720][  0]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2021.07.08-15.02.41:720][  0]LogInput: Warning: Action Jump uses invalid key OculusGo_Left_Trigger_Click.
+[2021.07.08-15.02.41:720][  0]LogInput: Warning: Action ResetVR uses invalid key OculusGo_Left_Trackpad_Click.
+[2021.07.08-15.02.41:720][  0]LogInput: Warning: Use -RemoveInvalidKeys to remove instances of these keys from the action mapping.
+[2021.07.08-15.02.41:720][  0]LogLoad: (Engine Initialization) Total time: 29.74 seconds
+[2021.07.08-15.02.41:720][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2021.07.08-15.02.41:720][  0]LogInit: First time updating LLM stats...
+[2021.07.08-15.02.42:075][  0]LogAssetRegistry: Asset discovery search completed in 25.7483 seconds
+[2021.07.08-15.02.42:077][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000003 seconds (updated 0 objects)
+[2021.07.08-15.02.42:180][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2021.07.08-15.02.42:220][  0]LogSlate: Took 0.000184 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2021.07.08-15.02.42:222][  0]LogSlate: Took 0.000162 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2021.07.08-15.02.42:384][  0]LogSlate: Took 0.013181 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2021.07.08-15.02.43:282][  0]LogRenderer: Reallocating scene render targets to support 724x360 Format 10 NumSamples 1 (Frame:1).
+[2021.07.08-15.02.43:282][  0]LogSlate: Took 0.019404 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2021.07.08-15.02.51:375][287]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x419)
+[2021.07.08-15.03.27:415][332]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x426)
+[2021.07.08-15.03.54:229][503]Cmd: MODE GRID=0
+[2021.07.08-15.04.00:732][248]Cmd: MODE GRID=1
+[2021.07.08-15.04.18:559][358]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x401)
+[2021.07.08-15.04.30:205][719]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x420)
+[2021.07.08-15.04.38:374][667]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x426)
+[2021.07.08-15.04.43:280][230]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor_400x400)
+[2021.07.08-15.04.44:409][357]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x418)
+[2021.07.08-15.04.45:226][440]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x401)
+[2021.07.08-15.04.47:225][671]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x401)
+[2021.07.08-15.04.48:929][853]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x401)
+[2021.07.08-15.04.49:456][915]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x418)
+[2021.07.08-15.05.00:928][258]Cmd: TRANSACTION UNDO
+[2021.07.08-15.05.00:928][258]LogEditorTransaction: Undo Set Location
+[2021.07.08-15.05.01:030][258]LogSlate: Took 0.000227 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2021.07.08-15.05.23:941][922]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x400)
+[2021.07.08-15.05.27:119][291]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_Door_400x400)
+[2021.07.08-15.05.30:870][729]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x417)
+[2021.07.08-15.05.33:578][ 36]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x425)
+[2021.07.08-15.05.44:333][302]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x427)
+[2021.07.08-15.05.52:742][285]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor_400x400)
+[2021.07.08-15.05.55:937][654]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x427)
+[2021.07.08-15.06.03:996][554]LogUObjectHash: Compacting FUObjectHashTables data took   0.67ms
+[2021.07.08-15.06.04:139][554]LogSavePackage: Moving '../../../../../MazeGameRepos/MazeGame/MazeGameDML/Saved/ThirdPersonExampleMapE68D23BC4F08DBA5048BEEB267A41F88.tmp' to '../../../../../MazeGameRepos/MazeGame/MazeGameDML/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
+[2021.07.08-15.06.04:573][554]LogSavePackage: Moving '../../../../../MazeGameRepos/MazeGame/MazeGameDML/Saved/ThirdPersonExampleMap_BuiltDataE65CC5E84F16BA953CB0F388ACB83A02.tmp' to '../../../../../MazeGameRepos/MazeGame/MazeGameDML/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.uasset'
+[2021.07.08-15.06.04:626][554]AssetCheck: New page: Asset Save: multiple assets
+[2021.07.08-15.06.04:626][554]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.ThirdPersonExampleMap_BuiltData
+[2021.07.08-15.06.04:627][554]LogContentValidation: Display: Validating World /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap
+[2021.07.08-15.06.07:392][878]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x422)
+[2021.07.08-15.06.10:448][228]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_Door_400x403)
+[2021.07.08-15.06.12:215][425]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x403)
+[2021.07.08-15.06.41:219][860]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x434)
+[2021.07.08-15.07.00:489][130]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Wall_Door_400x409)
+[2021.07.08-15.07.01:198][210]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Wall_Door_400x409)
+[2021.07.08-15.07.11:046][373]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x437)
+[2021.07.08-15.07.12:690][558]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x444)
+[2021.07.08-15.07.23:965][866]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_Door_400x405)
+[2021.07.08-15.07.29:454][513]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_Door_400x407)
+[2021.07.08-15.07.31:963][790]Cmd: TRANSACTION UNDO
+[2021.07.08-15.07.31:963][790]LogEditorTransaction: Undo Move Actors
+[2021.07.08-15.07.35:061][ 91]Cmd: TRANSACTION UNDO
+[2021.07.08-15.07.35:061][ 91]LogEditorTransaction: Undo Move Actors
+[2021.07.08-15.07.38:165][406]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x445)
+[2021.07.08-15.07.47:641][509]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor_400x400)
+[2021.07.08-15.07.52:052][ 27]LogUObjectHash: Compacting FUObjectHashTables data took   0.30ms
+[2021.07.08-15.07.52:089][ 27]LogSavePackage: Moving '../../../../../MazeGameRepos/MazeGame/MazeGameDML/Saved/ThirdPersonExampleMap2F9F711D44A3D285AE8785B99869DCE6.tmp' to '../../../../../MazeGameRepos/MazeGame/MazeGameDML/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
+[2021.07.08-15.07.52:276][ 27]LogSavePackage: Moving '../../../../../MazeGameRepos/MazeGame/MazeGameDML/Saved/ThirdPersonExampleMap_BuiltDataDFEC243D4573BFE9F5E3D5809CDFE4C0.tmp' to '../../../../../MazeGameRepos/MazeGame/MazeGameDML/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.uasset'
+[2021.07.08-15.07.52:286][ 27]AssetCheck: New page: Asset Save: multiple assets
+[2021.07.08-15.07.52:286][ 27]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.ThirdPersonExampleMap_BuiltData
+[2021.07.08-15.07.52:286][ 27]LogContentValidation: Display: Validating World /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap
+[2021.07.08-15.08.07:475][791]MapCheck: New page: Map Check
+[2021.07.08-15.08.07:541][791]LightingResults: New page: Lighting Build - Jul 8, 2021, 9:08:07 PM
+[2021.07.08-15.08.08:077][791]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2021.07.08-15.08.08:350][791]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2021.07.08-15.08.08:693][791]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2021.07.08-15.08.11:644][791]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2021.07.08-15.08.11:644][791]LogSwarmInterface: [TryOpenConnection] Local Process ID is 4424
+[2021.07.08-15.08.26:049][791]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2021.07.08-15.08.26:049][791]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2021.07.08-15.08.26:049][791]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2021.07.08-15.08.26:049][791]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2021.07.08-15.08.26:049][791]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2021.07.08-15.08.26:996][791]LogEditorBuildUtils: Build time 0:19
+[2021.07.08-15.08.27:225][792]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer M_Wood_Pine, compiling. 
+[2021.07.08-15.08.27:329][792]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer M_Wood_Pine, compiling. 
+[2021.07.08-15.08.27:368][792]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 4
+[2021.07.08-15.08.27:369][792]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 2
+[2021.07.08-15.08.29:185][799]LogUObjectHash: Compacting FUObjectHashTables data took   0.83ms
+[2021.07.08-15.09.31:192][376]Job is a success!
+[2021.07.08-15.09.31:371][377]LogVolumetricLightmapImport: Imported Volumetric Lightmap in 0.033s
+[2021.07.08-15.09.31:371][377]LogVolumetricLightmapImport:      Indirection Texture 16x16x16 = 0.0Mb
+[2021.07.08-15.09.31:371][377]LogVolumetricLightmapImport:      BrickData (all levels) 0.2Mb
+[2021.07.08-15.09.31:371][377]LogVolumetricLightmapImport:      Bricks at depth
+[2021.07.08-15.09.31:371][377]LogVolumetricLightmapImport:          0: 2.5% covering 100.0% of volume
+[2021.07.08-15.09.31:371][377]LogVolumetricLightmapImport:          1: 10.0% covering 6.3% of volume
+[2021.07.08-15.09.31:371][377]LogVolumetricLightmapImport:          2: 87.5% covering 0.9% of volume
+[2021.07.08-15.09.31:371][377]LogVolumetricLightmapImport:      Bricks in each level
+[2021.07.08-15.09.31:371][377]LogVolumetricLightmapImport:          ThirdPersonExampleMap 			 40 bricks 	 100.0% (Persistent Level)
+[2021.07.08-15.09.33:409][377]LogTexture: Display: Building textures: SkyOcclusion0_1 (AutoDXT, 1024X512)
+[2021.07.08-15.09.33:410][377]LogTexture: Display: Building textures: HQ_Lightmap0_1 (AutoDXT, 1024X1024)
+[2021.07.08-15.09.33:410][377]LogTexture: Display: Building textures: LQ_Lightmap_0_1 (DXT1, 1024X1024)
+[2021.07.08-15.09.33:410][377]LogTexture: Display: Building textures: SkyOcclusion0_2 (AutoDXT, 1024X512)
+[2021.07.08-15.09.33:410][377]LogTexture: Display: Building textures: HQ_Lightmap0_2 (AutoDXT, 1024X1024)
+[2021.07.08-15.09.33:410][377]LogTexture: Display: Building textures: LQ_Lightmap_0_2 (DXT1, 1024X1024)
+[2021.07.08-15.09.33:410][377]LogTexture: Display: Building textures: SkyOcclusion1_3 (AutoDXT, 64X32)
+[2021.07.08-15.09.33:410][377]LogTexture: Display: Building textures: HQ_Lightmap1_3 (AutoDXT, 64X64)
+[2021.07.08-15.09.33:410][377]LogTexture: Display: Building textures: LQ_Lightmap_1_3 (DXT1, 64X64)
+[2021.07.08-15.09.33:624][377]LogTexture: Display: Building textures: ShadowMapTexture2D_3 (G8, 32X32)
+[2021.07.08-15.09.33:624][377]LogTexture: Display: Building textures: ShadowMapTexture2D_2 (G8, 1024X1024)
+[2021.07.08-15.09.34:153][377]Lightmass on DESKTOP-DVN7L58: 1:02 min total, 139 ms importing, 4 ms setup, 4.09 sec photons, 58.5 sec processing, 0 ms extra exporting [62/62 mappings]. Threads: 3:54 min total, 1:53 min processing.
+[2021.07.08-15.09.34:200][377]LogStaticLightingSystem: ThirdPersonExampleMap_BuiltData storing lightmap data for 62 meshes in 3 LightmapResourceClusters (20.7 Meshes per cluster).
+[2021.07.08-15.09.34:233][377]LogUObjectHash: Compacting FUObjectHashTables data took   0.61ms
+[2021.07.08-15.09.34:319][377]LogStaticLightingSystem: Illumination: 1:26 min (1.95 sec encoding lightmaps, 191 ms encoding shadowmaps)
+[2021.07.08-15.09.34:327][377]LogStaticLightingSystem: Lightmap texture memory:  5.3 MB (5.3 MB streaming, 0.0 MB non-streaming), 6 textures
+[2021.07.08-15.09.34:327][377]LogStaticLightingSystem: Shadowmap texture memory: 1.3 MB (1.3 MB streaming, 0.0 MB non-streaming), 2 textures
+[2021.07.08-15.09.45:105][377]DumpUnbuiltLightIteractions
+[2021.07.08-15.09.45:105][377]Lights with unbuilt interactions: 0
+[2021.07.08-15.09.45:105][377]
+[2021.07.08-15.09.45:105][377]Primitives with unbuilt interactions: 0
+[2021.07.08-15.09.45:223][377]LogTexture: Display: Building textures: NewReflectionComponentTexture3884DE244CA9D1E5320A11B1C608A293 (BGRA8, 128X128)
+[2021.07.08-15.09.45:249][378]Cmd: MAP CHECK NOTIFYRESULTS
+[2021.07.08-15.09.45:249][378]MapCheck: New page: ThirdPersonExampleMap - Jul 8, 2021, 9:09:45 PM
+[2021.07.08-15.09.45:388][378]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 139.002ms to complete.
+[2021.07.08-15.09.48:902][791]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x434)
+[2021.07.08-15.09.50:230][935]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x411)
+[2021.07.08-15.09.51:330][ 43]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2021.07.08-15.10.14:128][763]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (NetworkPlayerStart)
+[2021.07.08-15.10.20:422][499]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2021.07.08-15.10.21:102][572]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2021.07.08-15.10.26:059][159]LogUObjectHash: Compacting FUObjectHashTables data took   0.61ms
+[2021.07.08-15.10.26:077][159]LogSavePackage: Moving '../../../../../MazeGameRepos/MazeGame/MazeGameDML/Saved/ThirdPersonExampleMap0BD38DFB49BF2060ECC3DBA3E14A3E89.tmp' to '../../../../../MazeGameRepos/MazeGame/MazeGameDML/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
+[2021.07.08-15.10.26:252][159]LogSavePackage: Moving '../../../../../MazeGameRepos/MazeGame/MazeGameDML/Saved/ThirdPersonExampleMap_BuiltData63D192324E1D3EE684FDB588C973EEF0.tmp' to '../../../../../MazeGameRepos/MazeGame/MazeGameDML/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.uasset'
+[2021.07.08-15.10.26:259][159]AssetCheck: New page: Asset Save: multiple assets
+[2021.07.08-15.10.26:259][159]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.ThirdPersonExampleMap_BuiltData
+[2021.07.08-15.10.26:259][159]LogContentValidation: Display: Validating World /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap
+[2021.07.08-15.10.27:263][263]LogUObjectHash: Compacting FUObjectHashTables data took   0.23ms
+[2021.07.08-15.10.27:312][263]LogSavePackage: Moving '../../../../../MazeGameRepos/MazeGame/MazeGameDML/Saved/ThirdPersonExampleMap7601E8824E541689E7BBF0B069B950F5.tmp' to '../../../../../MazeGameRepos/MazeGame/MazeGameDML/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
+[2021.07.08-15.10.27:496][263]LogSavePackage: Moving '../../../../../MazeGameRepos/MazeGame/MazeGameDML/Saved/ThirdPersonExampleMap_BuiltData6A9E66F041E62AECCE92AD84B79B141E.tmp' to '../../../../../MazeGameRepos/MazeGame/MazeGameDML/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.uasset'
+[2021.07.08-15.10.27:507][263]AssetCheck: New page: Asset Save: multiple assets
+[2021.07.08-15.10.27:507][263]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.ThirdPersonExampleMap_BuiltData
+[2021.07.08-15.10.27:507][263]LogContentValidation: Display: Validating World /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap
+[2021.07.08-15.10.37:558][393]Cmd: TRANSACTION UNDO
+[2021.07.08-15.10.37:558][393]LogEditorTransaction: Undo Create Actors
+[2021.07.08-15.10.57:297][518]Cmd: TRANSACTION UNDO
+[2021.07.08-15.10.57:297][518]LogEditorTransaction: Undo Create Actors
+[2021.07.08-15.11.44:768][748]LogSlate: Window 'Material Baking Options' being destroyed
+[2021.07.08-15.12.10:115][674]Cmd: TRANSACTION UNDO
+[2021.07.08-15.12.10:115][674]LogEditorTransaction: Undo Create Actors
+[2021.07.08-15.12.17:085][408]LogRenderer: Reallocating scene render targets to support 724x372 Format 10 NumSamples 1 (Frame:56489).
+[2021.07.08-15.12.17:109][409]LogRenderer: Reallocating scene render targets to support 724x388 Format 10 NumSamples 1 (Frame:56491).
+[2021.07.08-15.12.17:132][410]LogRenderer: Reallocating scene render targets to support 724x400 Format 10 NumSamples 1 (Frame:56493).
+[2021.07.08-15.12.17:153][411]LogRenderer: Reallocating scene render targets to support 724x408 Format 10 NumSamples 1 (Frame:56495).
+[2021.07.08-15.12.17:172][412]LogRenderer: Reallocating scene render targets to support 724x412 Format 10 NumSamples 1 (Frame:56497).
+[2021.07.08-15.12.25:400][334]Cmd: TRANSACTION UNDO
+[2021.07.08-15.12.25:400][334]LogEditorTransaction: Undo Create Actors
+[2021.07.08-15.12.31:727][998]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x417)
+[2021.07.08-15.12.37:031][597]LogSlate: Took 0.016056 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2021.07.08-15.12.52:809][429]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2021.07.08-15.13.00:967][390]Cmd: TRANSACTION UNDO
+[2021.07.08-15.13.00:967][390]LogEditorTransaction: Undo Set Scale
+[2021.07.08-15.13.02:248][497]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x417)
+[2021.07.08-15.13.08:866][262]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2021.07.08-15.13.17:443][229]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x425)
+[2021.07.08-15.14.06:861][803]LogAssetEditorSubsystem: Opening Asset editor for StaticMesh /Game/StarterContent/Architecture/Wall_400x400.Wall_400x400
+[2021.07.08-15.14.08:701][803]LogAssetEditorSubsystem: Opening Asset editor for StaticMesh /Game/StarterContent/Architecture/Wall_Door_400x400.Wall_Door_400x400
+[2021.07.08-15.14.09:179][804]LogRenderer: Reallocating scene render targets to support 1008x476 Format 10 NumSamples 1 (Frame:1).
+[2021.07.08-15.14.14:946][264]LogWorld: UWorld::CleanupWorld for World_3, bSessionEnded=true, bCleanupResources=true
+[2021.07.08-15.14.14:946][264]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.07.08-15.14.16:406][367]LogSlate: Window 'Wall_400x400' being destroyed
+[2021.07.08-15.14.16:410][367]LogSlate: Window 'Wall_400x400' being destroyed
+[2021.07.08-15.14.16:413][367]LogWorld: UWorld::CleanupWorld for World_2, bSessionEnded=true, bCleanupResources=true
+[2021.07.08-15.14.16:413][367]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.07.08-15.14.37:497][639]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2021.07.08-15.14.39:634][881]LogUObjectHash: Compacting FUObjectHashTables data took   0.63ms
+[2021.07.08-15.14.39:657][881]LogSavePackage: Moving '../../../../../MazeGameRepos/MazeGame/MazeGameDML/Saved/ThirdPersonExampleMapAEC1A5344F9758DE4D2BCB98D7AA75CF.tmp' to '../../../../../MazeGameRepos/MazeGame/MazeGameDML/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
+[2021.07.08-15.14.39:834][881]LogSavePackage: Moving '../../../../../MazeGameRepos/MazeGame/MazeGameDML/Saved/ThirdPersonExampleMap_BuiltDataD2FC47E849FBBD00C3AB7D9C8BE5BF99.tmp' to '../../../../../MazeGameRepos/MazeGame/MazeGameDML/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.uasset'
+[2021.07.08-15.14.39:843][881]AssetCheck: New page: Asset Save: multiple assets
+[2021.07.08-15.14.39:843][881]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.ThirdPersonExampleMap_BuiltData
+[2021.07.08-15.14.39:843][881]LogContentValidation: Display: Validating World /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap
+[2021.07.08-15.15.21:659][771]Cmd: TRANSACTION UNDO
+[2021.07.08-15.15.21:659][771]LogEditorTransaction: Undo Move Actors
+[2021.07.08-15.15.31:340][837]LogRHI: Error: Present Fail Count 1
+[2021.07.08-15.15.31:340][837]LogRHI: Error: SyncInterval 0
+[2021.07.08-15.15.31:340][837]LogRHI: Error: SwapChainDesc.BufferDesc.Width 648
+[2021.07.08-15.15.31:340][837]LogRHI: Error: SwapChainDesc.BufferDesc.Height 133
+[2021.07.08-15.15.31:340][837]LogRHI: Error: SwapChainDesc.BufferDesc.RefreshRate.Numerator 0
+[2021.07.08-15.15.31:340][837]LogRHI: Error: SwapChainDesc.BufferDesc.RefreshRate.Denominator 0
+[2021.07.08-15.15.31:340][837]LogRHI: Error: SwapChainDesc.BufferDesc.Format 24
+[2021.07.08-15.15.31:340][837]LogRHI: Error: SwapChainDesc.BufferDesc.ScanlineOrdering 0
+[2021.07.08-15.15.31:340][837]LogRHI: Error: SwapChainDesc.BufferDesc.Scaling 0
+[2021.07.08-15.15.31:340][837]LogRHI: Error: SwapChainDesc.SampleDesc.Count 1
+[2021.07.08-15.15.31:340][837]LogRHI: Error: SwapChainDesc.SampleDesc.Quality 0
+[2021.07.08-15.15.31:340][837]LogRHI: Error: SwapChainDesc.BufferUsage 48
+[2021.07.08-15.15.31:340][837]LogRHI: Error: SwapChainDesc.BufferCount 2
+[2021.07.08-15.15.31:340][837]LogRHI: Error: SwapChainDesc.OutputWindow 00000000000A03AC
+[2021.07.08-15.15.31:340][837]LogRHI: Error: SwapChainDesc.Windowed true
+[2021.07.08-15.15.31:340][837]LogRHI: Error: SwapChainDesc.SwapEffect 4
+[2021.07.08-15.15.31:340][837]LogRHI: Error: SwapChainDesc.Flags 2050
+[2021.07.08-15.15.31:405][837]LogD3D11RHI: Error: Result failed 
+ at D:/Build/++UE4/Sync/Engine/Source/Runtime/Windows/D3D11RHI/Private/D3D11Query.cpp:356 
+ with error DXGI_ERROR_DEVICE_REMOVED DXGI_ERROR_DRIVER_INTERNAL_ERROR
+[2021.07.08-15.15.31:405][837]LogD3D11RHI: [Aftermath] GDynamicRHI=0000024558D3D980, GDX11NVAfterMathEnabled=0, Result=0xFFFFFFFF, bDeviceActive=0
+[2021.07.08-15.15.31:405][837]LogWindows: Windows GetLastError: The operation completed successfully. (0)
